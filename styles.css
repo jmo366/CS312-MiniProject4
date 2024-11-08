@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0; 
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff66b2; 
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #ff66b2; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e60073; 
+  }
+  
+  .post-card {
+    background-color: #ffffff; 
+    border: 1px solid #ffb6c1; 
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h3 {
+    color: #ff66b2;
+    margin-bottom: 5px;
+  }
+  
+  .post-card p {
+    color: #666; 
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ff66b2;
+    font-size: 0.9rem;
+  }
+  
